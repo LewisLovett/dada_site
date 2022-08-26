@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
   color: #3b4365;
+  text-align: center;
 }
 
 a {
@@ -14,7 +15,7 @@ nav {
   width: 100%;
   display: flex;
   flex: content;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-around;
 }
 nav img {
@@ -24,10 +25,21 @@ nav img {
 #title {
   font-family: "Permanent Marker", cursive;
   font-size: 50px;
+  vertical-align: bottom;
 }
 
 #login_button {
   padding: 10px 25px;
   border: 2px solid #3b4365;
   border-radius: 5px;
+}
+
+h2, h4 {
+  color: #47c5f3;
+}
+
+.content_button {
+  background-color: #3b4365;
+  color: #fff;
+  padding: 10px 40px;
 }
