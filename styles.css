@@ -12,6 +12,7 @@ a {
 }
 
 nav {
+  background-color: #fefdf8;
   width: 100%;
   display: flex;
   flex: content;
@@ -20,6 +21,11 @@ nav {
 }
 nav img {
   width: 75px;
+}
+
+main {
+  background-color: #fefdf8;
+  padding-bottom: 40px;
 }
 
 #title {
@@ -58,4 +64,12 @@ h2, h4 {
 .card_container {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  background-color: #fffcdd;
+}
+footer a {
+  display: block;
+  padding: 20px;
 }

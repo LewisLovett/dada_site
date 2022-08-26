@@ -7,13 +7,14 @@ $secondary_color:#47c5f3;
     font-family: 'Rubik', sans-serif;
     color: $primary_color;
     text-align: center;
+    
 }
 a{
     text-decoration: none;
 }
 
 nav{
-    
+    background-color: #fefdf8;
     width: 100%;
     display: flex;
 flex: content;
@@ -24,6 +25,10 @@ justify-content: space-around;
       }
 }
 
+main{
+    background-color: #fefdf8;
+    padding-bottom: 40px;
+}
 #title{
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
@@ -58,5 +63,13 @@ h2, h4{
 
 .card_container{
     display: flex;
-flex-direction: column;
+    flex-direction: column;
+}
+footer{
+    background-color: #fffcdd;
+
+    a{
+        display: block;
+        padding: 20px;
+    }
 }
