@@ -43,3 +43,7 @@ h2, h4 {
   color: #fff;
   padding: 10px 40px;
 }
+
+.content_margin {
+  margin: 20px 0;
+}
